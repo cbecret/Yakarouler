@@ -1,9 +1,11 @@
+* {
+  display:block;
+}
+
 yaka-recherche {
-  top:200px;
-  position:absolute;
+  position:relative;
 }
 
 yaka-mavoiture {
-  position:absolute;
-  top:500px;
+  position:relative;
 }
