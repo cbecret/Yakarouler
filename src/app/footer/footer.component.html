@@ -1,3 +1,35 @@
-<p>
-  footer works!
-</p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-4" (mouseover)="afficheUn()" [hidden]="hide1">{{text1}}</div>
+    <div class="col-xs-12 col-sm-12 col-md-4" (mouseover)="afficheUn()" [hidden]="hide11"><img src="" alt="Article1"><img src="" alt="Article2"></div>
+
+    <div class="col-xs-12 col-sm-12 col-md-4" (mouseover)="afficheDeux()" [hidden]="hide2">{{text2}}</div>
+    <div class="col-xs-12 col-sm-12 col-md-4" (mouseover)="afficheDeux()" [hidden]="hide22">
+      <p><a>Atelier mécanique gratuit</a></p>
+      <p><a>Questions / réponses</a></p>
+      <p><a>Créer un compte</a></p>
+      <p><a>Mon compte</a></p>
+      <p><a>Parrainez vos amis</a></p>
+      <p><a>Sécurité et confidentialité</a></p>
+      <p><a>Connaître sa cote Argus</a></p>
+      <p><a>Blog du Dico de l'auto</a></p>
+      <p><a>Forum Yakarouler</a></p>
+      <p><a>Diagnostic panne</a></p>
+      <p><a>Tutoriels</a></p>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-4" (mouseover)="afficheTrois()" [hidden]="hide3">{{text3}}</div>
+    <div class="col-xs-12 col-sm-12 col-md-4" (mouseover)="afficheTrois()" [hidden]="hide33">
+      <p><a>A propos de yakarouler</a></p>
+      <p><a>Nous contacter</a></p>
+      <p><a>Yakarouler recrute</a></p>
+      <p><a>Magasin</a></p>
+      <p><a>Devenez centre de montage</a></p>
+      <p><a>Solidarité</a></p>
+      <p><a>Avis client</a></p>
+      <p><a>Donnez votre avis sur yakarouler</a></p>
+      <p><a>Devenez affilié</a></p>
+      <p><a>Version Mobile</a></p>
+    </div>
+  </div>
+</div>

@@ -5,6 +5,7 @@ import { MavoitureComponent } from '../mavoiture/mavoiture.component';
 import { OffresComponent } from '../offres/offres.component';
 import { NewsletterComponent } from '../newsletter/newsletter.component';
 import { SocialComponent } from '../social/social.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   moduleId: module.id,
@@ -12,7 +13,7 @@ import { SocialComponent } from '../social/social.component';
   templateUrl: 'body.component.html',
   styleUrls: ['body.component.css'],
   directives: [RechercheComponent, BannerComponent, MavoitureComponent, OffresComponent,
-              NewsletterComponent, SocialComponent]
+              NewsletterComponent, SocialComponent, FooterComponent]
 })
 export class BodyComponent implements OnInit {
 
