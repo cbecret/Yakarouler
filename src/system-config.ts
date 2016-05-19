@@ -40,6 +40,7 @@ const barrels: string[] = [
   'app/macommande',
   'app/aide',
   'app/apropos',
+  'app/footer',
   /** @cli-barrel */
 ];
 

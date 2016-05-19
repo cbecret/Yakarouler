@@ -9,25 +9,25 @@ import {
 import { ComponentFixture, TestComponentBuilder } from '@angular/compiler/testing';
 import { Component } from '@angular/core';
 import { By } from '@angular/platform-browser';
-import { MacommandeComponent } from './macommande.component';
+import { FooterComponent } from './footer.component';
 
-describe('Component: Macommande', () => {
+describe('Component: Footer', () => {
   let builder: TestComponentBuilder;
 
-  beforeEachProviders(() => [MacommandeComponent]);
+  beforeEachProviders(() => [FooterComponent]);
   beforeEach(inject([TestComponentBuilder], function (tcb: TestComponentBuilder) {
     builder = tcb;
   }));
 
-  it('should inject the component', inject([MacommandeComponent],
-      (component: MacommandeComponent) => {
+  it('should inject the component', inject([FooterComponent],
+      (component: FooterComponent) => {
     expect(component).toBeTruthy();
   }));
 
   it('should create the component', inject([], () => {
-    return builder.createAsync(MacommandeComponentTestController)
+    return builder.createAsync(FooterComponentTestController)
       .then((fixture: ComponentFixture<any>) => {
-        let query = fixture.debugElement.query(By.directive(MacommandeComponent));
+        let query = fixture.debugElement.query(By.directive(FooterComponent));
         expect(query).toBeTruthy();
         expect(query.componentInstance).toBeTruthy();
       });
@@ -37,10 +37,10 @@ describe('Component: Macommande', () => {
 @Component({
   selector: 'test',
   template: `
-    <yaka-macommande></yaka-macommande>
+    <yaka-footer></yaka-footer>
   `,
-  directives: [MacommandeComponent]
+  directives: [FooterComponent]
 })
-class MacommandeComponentTestController {
+class FooterComponentTestController {
 }
 

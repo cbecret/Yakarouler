@@ -1,7 +1,16 @@
-<a href="model">Modèle</a>
-<a href="immatriculation">Immatriculation</a>
-<a href="cartegrise">Carte Grise</a>
-<form action="">
-  <input type="text" placeholder="AC-123-DE">
-  <button>OK</button>
-</form>
+<div class="container">
+
+  <button (mouseover)="clickUn()">Modèle</button>
+  <button (mouseover)="clickDeux()">Immatriculation</button>
+  <button (mouseover)="clickTrois()">Carte Grise</button>
+
+  <form>
+    <fieldset class="form-group">
+      <input type="text" class="form-control" id="marqueVoiture" placeholder="{{contenu}}" [hidden]="hide1">
+      <input type="text" class="form-control" id="modelVoiture" placeholder="{{contenu2}}" [hidden]="hide2">
+      <input type="text" class="form-control" id="moteurVoiture" placeholder="{{contenu3}}" [hidden]="hide3">
+      <input type="text" class="form-control" id="moteurVoiture" placeholder="{{contenu4}}" [hidden]="hide4">
+      <input type="text" class="form-control" id="moteurVoiture" placeholder="{{contenu5}}" [hidden]="hide5">
+    </fieldset>
+  </form>
+</div>

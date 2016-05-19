@@ -9,3 +9,8 @@
   hight:50px;
   width:50px;
 }
+
+.logo, .menu {
+  height: 50%;
+  width:auto;
+}
