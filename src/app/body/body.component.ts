@@ -6,6 +6,8 @@ import { OffresComponent } from '../offres/offres.component';
 import { NewsletterComponent } from '../newsletter/newsletter.component';
 import { SocialComponent } from '../social/social.component';
 import { FooterComponent } from '../footer/footer.component';
+import { GaragesComponent } from '../garages/garages.component';
+import { CertifComponent } from '../certif/certif.component';
 
 @Component({
   moduleId: module.id,
@@ -13,7 +15,8 @@ import { FooterComponent } from '../footer/footer.component';
   templateUrl: 'body.component.html',
   styleUrls: ['body.component.css'],
   directives: [RechercheComponent, BannerComponent, MavoitureComponent, OffresComponent,
-              NewsletterComponent, SocialComponent, FooterComponent]
+              NewsletterComponent, SocialComponent, FooterComponent, GaragesComponent,
+              CertifComponent]
 })
 export class BodyComponent implements OnInit {
 
