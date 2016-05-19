@@ -15,6 +15,7 @@ import { Articles2Component } from '../articles2/articles2.component';
 import { Articles3Component } from '../articles3/articles3.component';
 import { Reducs2Component } from '../reducs2/reducs2.component';
 import { Reducs3Component } from '../reducs3/reducs3.component';
+import { PiecesComponent } from '../pieces/pieces.component';
 
 @Component({
   moduleId: module.id,
@@ -24,7 +25,8 @@ import { Reducs3Component } from '../reducs3/reducs3.component';
   directives: [RechercheComponent, BannerComponent, MavoitureComponent, OffresComponent,
               NewsletterComponent, SocialComponent, FooterComponent, GaragesComponent,
               CertifComponent, DiscountComponent, VideoComponent, PartenairesComponent,
-              Articles2Component, Articles3Component, Reducs2Component, Reducs3Component]
+              Articles2Component, Articles3Component, Reducs2Component, Reducs3Component,
+              PiecesComponent]
 })
 export class BodyComponent implements OnInit {
 
