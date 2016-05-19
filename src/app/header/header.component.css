@@ -18,3 +18,18 @@
 #myModal {
   width:300px;
 }
+
+
+/* DESKTOP */
+@media (min-width: 62em) {
+  yaka-menudesk {
+    display:block;
+  }
+}
+
+
+@media (max-width: 61.9em) {
+  yaka-menudesk {
+    display:none;
+  }
+}

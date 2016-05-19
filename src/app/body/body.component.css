@@ -9,3 +9,100 @@ yaka-recherche {
 yaka-mavoiture {
   position:relative;
 }
+
+
+/* MOBILE */
+@media (min-width : 34em) {
+  yaka-offres {
+    display:none;
+  }
+  yaka-discount {
+    display:block;
+  }
+  yaka-certif {
+    display:block;
+  }
+}
+@media (max-width : 33.9em) {
+  yaka-offres {
+    display:block;
+  }
+  yaka-discount {
+    display:none;
+  }
+  yaka-certif {
+    display:none;
+  }
+}
+
+
+/* TABLETTE */
+@media (min-width: 48em) {
+  yaka-articles2 {
+    display:block;
+  }
+  yaka-reducs2 {
+    display:block;
+  }
+  yaka-garages {
+    display:block;
+  }
+}
+@media (max-width: 47.9em) {
+  yaka-articles2 {
+    display:none;
+  }
+  yaka-reducs2 {
+    display:none;
+  }
+  yaka-garages {
+    display:none;
+  }
+}
+
+
+/* DESKTOP */
+@media (min-width: 62em) {
+  yaka-articles3 {
+    display:block;
+  }
+  yaka-reducs3 {
+    display:block;
+  }
+  yaka-articles2 {
+    display:none;
+  }
+  yaka-reducs2 {
+    display:none;
+  }
+  yaka-pieces {
+    display:block;
+  }
+  yaka-video {
+    display:block;
+  }
+  yaka-partenaires {
+    display:block;
+  }
+}
+
+@media (max-width: 61.9em) {
+  yaka-articles3 {
+    display:none;
+  }
+  yaka-reducs3 {
+    display:none;
+  }
+  yaka-menudesk {
+    display:none;
+  }
+  yaka-pieces {
+    display:none;
+  }
+  yaka-video {
+    display:none;
+  }
+  yaka-partenaires {
+    display:none;
+  }
+}
