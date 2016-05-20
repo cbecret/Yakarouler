@@ -1,0 +1,32 @@
+.stars {
+  height:auto;
+  width:50%;
+  margin-top:-10px;
+}
+
+.note {
+  font-size:1.5em;
+  margin-bottom: 0px;
+}
+
+.orange {
+  color: #ff6600;
+  margin-bottom: 0px;
+}
+
+.avis {
+  margin-left:85px;
+  margin-top:-40px;
+  line-height: 15px;
+}
+
+.bord {
+  border-left: #ff6600;
+  border-width: 2px;
+  border-left-style: solid;
+  text-align: center;
+}
+
+h3 {
+  margin:40px;
+}

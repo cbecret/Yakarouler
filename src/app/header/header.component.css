@@ -4,10 +4,13 @@
 }
 
 .compte {
+  float:left;
   margin-top:20px;
   margin-left:10%;
   height:50px;
   width:50px;
+  position:absolute;
+  left:50px;
 }
 
 .logo, .menu {
@@ -15,8 +18,34 @@
   width:auto;
 }
 
+.logo {
+  margin-left:40%;
+}
+
+.head {
+  width:100%;
+  position:relative;
+}
+
+.menu {
+  float:right;
+  position:absolute;
+  right:50px;
+  z-index:2;
+}
+
 #myModal {
   width:300px;
+}
+
+.modal-dialog{
+  width: 273px;
+  background: #59595b;
+  margin: 0 auto;
+}
+.modal-body li{
+  border-top: 1px solid white;
+  padding: 15px;
 }
 
 

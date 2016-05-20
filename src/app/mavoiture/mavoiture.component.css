@@ -32,3 +32,12 @@ button {
   height:50px;
   width:80px;
 }
+
+img {
+  position:absolute;
+  top:100px;
+  left:10vw;
+  z-index: -1;
+  width:80vw;
+  height:auto;
+}
