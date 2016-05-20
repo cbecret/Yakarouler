@@ -2,3 +2,12 @@ table {
   height:300px;
   width:300px;
 }
+
+img {
+  width:auto;
+  height:50%;
+}
+
+td {
+  margin-left:10px;
+}

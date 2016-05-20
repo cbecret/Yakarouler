@@ -4,3 +4,7 @@ img {
   max-width:900px;
   height:auto;
 }
+
+li {
+  display:none;
+}

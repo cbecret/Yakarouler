@@ -1,0 +1,34 @@
+.bouton {
+  margin-top : 40px;
+  background-color: #59595b;
+  height:60px;
+  color:#ff6600;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.bouton:hover {
+  background-color: #ededed !important;
+}
+
+input {
+  width:80%;
+  max-width:500px;
+  height:40px;
+  border-width:3px;
+  border-color: #ff6600;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+button {
+  margin-left:45%;
+  margin-right:auto;
+  border-radius:100px;
+  background-color: #ff6600;
+  color:#ededed;
+  height:50px;
+  width:80px;
+}

@@ -1,9 +1,9 @@
 <div class="container">
-
-  <button (mouseover)="clickUn()">Modèle</button>
-  <button (mouseover)="clickDeux()">Immatriculation</button>
-  <button (mouseover)="clickTrois()">Carte Grise</button>
-
+  <div class="row">
+    <div (mouseover)="clickUn()" class="bouton col-xs-4">Modèle</div>
+    <div (mouseover)="clickDeux()" class="bouton col-xs-4">Immatriculation</div>
+    <div (mouseover)="clickTrois()" class="bouton col-xs-4">Carte Grise</div>
+  </div>
   <form>
     <fieldset class="form-group">
       <input type="text" class="form-control" id="marqueVoiture" placeholder="{{contenu}}" [hidden]="hide1">
@@ -12,5 +12,8 @@
       <input type="text" class="form-control" id="moteurVoiture" placeholder="{{contenu4}}" [hidden]="hide4">
       <input type="text" class="form-control" id="moteurVoiture" placeholder="{{contenu5}}" [hidden]="hide5">
     </fieldset>
+    <div class="row">
+      <button class="col-xs-12">OK</button>
+    </div>
   </form>
 </div>

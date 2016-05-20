@@ -1,0 +1,10 @@
+a {
+  color:#ededed;
+  text-align: center;
+  line-height: 15px;
+  vertical-align: center;
+}
+
+a:hover {
+  color: #2093b2;
+}

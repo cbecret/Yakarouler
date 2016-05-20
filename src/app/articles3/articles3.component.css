@@ -1,0 +1,15 @@
+#carouselarticles3 {
+  width:470px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h5 {
+  margin-top:40px;
+  color:#ff6600;
+  text-align: center;
+}
+
+li {
+  display:none;
+}
